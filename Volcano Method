@@ -1,0 +1,13 @@
+public class Volcano
+{
+    public static void main(String[] args)
+    {
+        Lava ouch = new Lava();
+        ouch.temp = 4000;
+    }
+}
+
+public class Lava
+{
+    int temp;
+}
