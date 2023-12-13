@@ -1,0 +1,15 @@
+public class Zoo
+{
+    public static void main(String[] args)
+    {
+        Elephant elmer = new Elephant();
+        Elephant indianElephant = elmer;
+        elmer.x = 7;
+    }
+}
+
+public class Elephant
+{
+    public int x;
+    public int y;
+}
