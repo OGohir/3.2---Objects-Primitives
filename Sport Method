@@ -1,0 +1,17 @@
+public class Sport
+{
+    public static void main(String[] args )
+    {
+        Player batsman = new Player();        
+        batsman.name = "Virat";
+        
+        Player bowler = new Player();
+        bowler.name = "Sachin";
+    }
+}
+
+class Player
+{
+    String name;
+}
+
