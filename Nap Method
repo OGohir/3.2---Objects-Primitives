@@ -1,0 +1,6 @@
+class Nap {
+    public static void main(String[] args){
+        String status = "awake";
+        status = "sleeping";
+    }
+}
