@@ -1,0 +1,11 @@
+class Swap {
+    public static void main(String[] args) {
+        double force = 250.0;
+        double speed = 100.0;
+        
+        // Switch the values of force and speed.
+        double temp = force;
+        force = speed;
+        speed = temp;
+    }
+}
